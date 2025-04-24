@@ -9,6 +9,13 @@ import {
   Cog6ToothIcon,
   KeyIcon,
   UsersIcon,
+  CogIcon,
+  UserIcon,
+  BookOpenIcon,
+  StarIcon,
+  HandThumbUpIcon,
+  CheckIcon,
+  CheckBadgeIcon
 } from "@heroicons/react/24/solid";
 
 import BackgroundCard from "@/components/background-card";
@@ -41,62 +48,74 @@ export function WhyChooseUs() {
   return (
     <section className="w-full max-w-4xl mx-auto flex flex-col items-center px-4 py-10">
       <Typography variant="h2" className="text-center mb-2" color="blue-gray">
-        Why choose our course?
+        Qual o nosso diferencial?
       </Typography>
       <Typography
         variant="lead"
         className="mb-16 w-full text-center font-normal !text-gray-500 lg:w-10/12"
       >
-        Discover the unique advantages, benefits, and standout features that set
-        our course apart from the rest.
+        Nossos diferenciais incluem otimização de processos com IA, análise inteligente de cadastros e seleção dos melhores motoristas para o transportador, garantindo eficiência e segurança.
       </Typography>
       <div className="mt-8">
         <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-12 mb-24">
-          <BackgroundCard title="Expert Instructors">
-            Learn from industry professionals with years of hands-on experience
-            in React development.
+          <BackgroundCard image="/image/ai.png" title="Inteligência Artificial Avançada">
+            Utilizamos IA para automatizar processos, validar informações em tempo real e otimizar a tomada de decisões, proporcionando mais agilidade, precisão e segurança para sua operação.
           </BackgroundCard>
           <div className="space-y-8">
             <div className="my-4">
-              <Option icon={CloudIcon} title="React Fundamentals">
-                Start with the basics. Understand React&apos;s core concepts,
-                component structure, and the virtual DOM.
-              </Option>
+                <Option icon={CogIcon} title="Análise Inteligente de Apólice">
+                Nossa IA analisa e valida informações de apólices de forma rápida e precisa, garantindo segurança e eficiência na operação. Proporcionamos clareza para facilitar a tomada de decisão e o entendimento dos direitos e deveres dos nossos clientes.
+                </Option>
             </div>
             <div className="mb-4 flex gap-4">
-              <Option icon={ChartPieIcon} title="State and Props">
-                Learn how to manage component state and utilize props to pass
-                data between components.
+              <Option icon={ChartPieIcon} title="Relatórios Inteligentes">
+          Geração automática de relatórios relevantes, com insights que realmente importam para o transportador, facilitando a gestão e a tomada de decisões.
               </Option>
             </div>
-            <Option icon={Cog6ToothIcon} title="Component Lifecycle">
-              Dive into the lifecycle of React components and harness its power
-              to control your application&apos;s behavior.
+            <Option icon={Cog6ToothIcon} title="Otimização de Processos">
+              Automatizamos tarefas repetitivas e otimizamos fluxos operacionais, reduzindo erros e aumentando a produtividade através de soluções baseadas em IA.
             </Option>
           </div>
         </div>
         <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-12 mb-24">
           <div className="space-y-8">
             <div className="my-4">
-              <Option icon={KeyIcon} title="Routing with React Router">
-                Create single-page applications (SPAs) with seamless navigation
-                using React Router.
+              <Option icon={UserIcon} title="Seleção de Motoristas">
+          Avaliamos e ranqueamos motoristas com critérios personalizados, assegurando qualidade e eficiência no transporte.
               </Option>
             </div>
             <div className="mb-4 flex gap-4">
-              <Option icon={UsersIcon} title="Handling Forms">
-                Master form handling in React and manage user input effectively.
+              <Option icon={BookOpenIcon} title="Capacitação Contínua">
+          Oferecemos cursos e treinamentos para manter os motoristas sempre atualizados e preparados para as demandas do mercado.
               </Option>
             </div>
-            <Option icon={CloudArrowDownIcon} title="State Management">
-              Explore state management options, including local component state
-              and global state using Redux or Context API.
+            <Option icon={StarIcon} title="Reconhecimento por Mérito">
+              Monitoramos o desempenho dos motoristas, reconhecendo e recompensando os melhores, promovendo um ambiente produtivo.
             </Option>
           </div>
-          <BackgroundCard title="Supportive Community">
-            Connect with fellow learners, share experiences, and get support
-            from instructors and peers.
+          <BackgroundCard image="/image/cart.png" title="Ranking de Motoristas">
+            Ranqueamento transparente dos motoristas, facilitando a escolha dos mais qualificados para cada operação.
           </BackgroundCard>
+        </div>
+        <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-12 mb-24">
+          <BackgroundCard image="/image/maozinha.png" title="Suporte ao Cliente Humanizado e Inteligente">
+            Oferecemos suporte dedicado que combina tecnologia de IA com atendimento humano, garantindo respostas rápidas, precisas e acolhimento tanto para pessoas físicas quanto jurídicas. Nossa equipe está sempre pronta para ajudar, transmitindo confiança e proximidade em cada interação.
+          </BackgroundCard>
+          <div className="space-y-8">
+            <div className="my-4">
+              <Option icon={UsersIcon} title="Atendimento Personalizado">
+          Unimos inteligência artificial e especialistas humanos para oferecer um suporte ágil, confiável e adaptado às necessidades de cada cliente, seja pessoa física ou empresa.
+              </Option>
+            </div>
+            <div className="mb-4 flex gap-4">
+              <Option icon={HandThumbUpIcon} title="Confiança e Transparência">
+          Priorizamos a confiança em todas as etapas do atendimento, fornecendo informações claras e acompanhamento próximo para garantir tranquilidade e segurança aos nossos clientes.
+              </Option>
+            </div>
+            <Option icon={CheckBadgeIcon} title="Disponibilidade Total">
+              Nosso suporte está disponível em múltiplos canais e horários estendidos, utilizando IA para respostas imediatas e equipe humana para casos que exigem atenção especial.
+            </Option>
+          </div>
         </div>
       </div>
     </section>

@@ -5,28 +5,28 @@ import CourseCard from "@/components/course-card";
 
 const OTHER_COURSES = [
   {
-    img: "/image/blogs/blog-1.svg",
-    title: "Future of Web Development: Trends and Innovations",
-    desc: "Discover the latest trends and innovations shaping the future of web development.",
-    buttonLabel: "register for free",
+    img: "/image/i1.png",
+    title: "Novas Diretrizes da Gestão de Riscos",
+    desc: "Confira as últimas atualizações e normas sobre Gestão de Riscos (GR) no setor industrial.",
+    buttonLabel: "saiba mais",
   },
   {
-    img: "/image/blogs/blog2.svg",
-    title: "WebDev Pro Code-a-Thon: Build a Responsive Website",
-    desc: "Participants will have 48 hours to create a responsive website from scratch using HTML, CSS, and JavaScript.",
-    buttonLabel: "register for free",
+    img: "/image/i2.jpg",
+    title: "Seminário: Boas Práticas em GR",
+    desc: "Participe do seminário sobre melhores práticas e cases de sucesso em Gestão de Riscos.",
+    buttonLabel: "inscreva-se",
   },
   {
-    img: "/image/blogs/blog3.svg",
-    title: "Ask the Experts: Frontend Web Development",
-    desc: "Join our live Q&A session with our experienced instructors. Get answers to your queries, insights into best practices.",
-    buttonLabel: "get ticket",
+    img: "/image/i3.jpg",
+    title: "Entrevista: Especialistas em GR",
+    desc: "Especialistas comentam os desafios e tendências para a Gestão de Riscos em 2025.",
+    buttonLabel: "ler entrevista",
   },
   {
-    img: "/image/blogs/blog4.svg",
-    title: "Web Accessibility: Building Inclusive Websites",
-    desc: "Industry experts will discuss the importance of inclusive design and share strategies for creating websites.",
-    buttonLabel: "get ticket",
+    img: "/image/i4.jpg",
+    title: "Inclusão da GR em Processos Corporativos",
+    desc: "Saiba como integrar a Gestão de Riscos aos processos estratégicos da sua empresa.",
+    buttonLabel: "ver detalhes",
   },
 ];
 
@@ -35,14 +35,13 @@ export function OtherCourses() {
     <section className="pb-20 px-8">
       <div className="container mx-auto mb-20 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
-          Other Courses
+          Notícias sobre Gestão de Riscos
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          Looking to elevate your web development skills? Browse through 1,000+
-          web development courses and find the one that fits your needs.
+          Fique por dentro das principais notícias, eventos e tendências em Gestão de Riscos (GR).
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">

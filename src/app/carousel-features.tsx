@@ -10,13 +10,13 @@ export function CarouselFeatures() {
     <section className="px-8 pt-40 pb-20">
       <div className="flex mb-16 flex-col items-center">
         <Typography variant="h2" className="text-center mb-2" color="blue-gray">
-          What Students Say
+          Oque nossos investidores falam?
         </Typography>
         <Typography
           variant="lead"
           className="mb-3 w-full text-center font-normal !text-gray-500 lg:w-10/12"
         >
-          Discover what our students have to say about our course!
+         Um pouco sobre o que nossos investidores falam sobre nós e como a nossa plataforma tem ajudado eles a crescerem e se desenvolverem.
         </Typography>
       </div>
       <div className="container mx-auto !rounded-lg bg-[url('/image/Background.png')] bg-center py-10 lg:px-16">
@@ -38,7 +38,7 @@ export function CarouselFeatures() {
             </div>
           )}
         >
-          {new Array(2).fill("").map((_, i) => (
+          {new Array(1).fill("").map((_, i) => (
             <div
               key={i}
               className="!relative flex grid-cols-1 flex-col-reverse gap-6 px-10 py-14 md:grid md:grid-cols-5  md:gap-14 md:py-20"
@@ -49,19 +49,16 @@ export function CarouselFeatures() {
                   color="white"
                   className="mb-5 text-xl font-normal "
                 >
-                  Easy Shopping, Quick Delivery <br />
-                  No need to stress about shopping for books. Order online and
-                  have your textbooks and supplies delivered straight to your
-                  doorstep for free.
+                  Investir e utilizar a nossa GR foi uma excelente decisão. A plataforma facilitou todo o processo e trouxe ótimos resultados para o meu negócio.
                 </Typography>
                 <Typography
                   variant="small"
                   color="white"
                   className="font-medium uppercase"
                 >
-                  Louis Miriam,{" "}
+                  Fernando Corrales,{" "}
                   <span className="font-normal opacity-60">
-                    Web Developer @ AMAZON INC.
+                    Dono Master @ Tecnorisk LTDA.
                   </span>
                 </Typography>
               </div>
@@ -69,9 +66,9 @@ export function CarouselFeatures() {
                 <Image
                   width={256}
                   height={256}
-                  src="/image/logos/logo-amazon 3.svg"
+                  src="/image/fer.png"
                   alt="testimonial image"
-                  className="h-full w-2/4 object-contain md:!w-2/3"
+                  className="h-full w-2/4 object-contain md:!w-2/3 rounded-full"
                 />
               </div>
             </div>

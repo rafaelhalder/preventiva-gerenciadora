@@ -19,7 +19,7 @@ export default function Campaign() {
       <Rastreamento />
       <WhyChooseUs />
       <CarouselFeatures />
-      <Pricing />
+      {/* <Pricing /> */}
       <OtherCourses />
       <Footer />
     </>
