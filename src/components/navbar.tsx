@@ -65,7 +65,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"}>
-          Material Tailwind
+          Preventiva
         </Typography>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
@@ -73,10 +73,10 @@ export function Navbar() {
           }`}
         >
           <NavItem>Home</NavItem>
-          <NavItem>About Us</NavItem>
-          <NavItem>Contact Us</NavItem>
+          <NavItem>Sobre nós</NavItem>
+          <NavItem>Contato</NavItem>
           <NavItem href="https://www.material-tailwind.com/docs/react/installation">
-            Docs
+            API
           </NavItem>
         </ul>
         <div className="hidden gap-2 lg:flex">
@@ -101,9 +101,9 @@ export function Navbar() {
           >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
+          <a href="https://github.com/rafaelhalder" target="_blank">
             <Button color={isScrolling ? "gray" : "white"} size="sm">
-              Blocks
+              Login
             </Button>
           </a>
         </div>
@@ -124,13 +124,10 @@ export function Navbar() {
         <div className="container mx-auto mt-4 rounded-lg bg-white px-6 py-5">
           <ul className="flex flex-col gap-4 text-blue-gray-900">
             <NavItem>Home</NavItem>
-            <NavItem>About Us</NavItem>
-            <NavItem>Contact Us</NavItem>
-            <NavItem href="https://www.material-tailwind.com/docs/react/installation">
-              Docs
-            </NavItem>
-            <NavItem href="https://www.material-tailwind.com/blocks">
-              Blocks
+            <NavItem>Sobre nós</NavItem>
+            <NavItem>Contato</NavItem>
+            <NavItem href="https://github.com/rafaelhalder">
+              API
             </NavItem>
           </ul>
           <div className="mt-4 flex gap-2">
@@ -145,7 +142,7 @@ export function Navbar() {
             </IconButton>
             <a href="https://www.material-tailwind.com/blocks" target="_blank">
               <Button color="gray" size="sm" className="ml-auto">
-                Blocks
+                Login
               </Button>
             </a>
           </div>

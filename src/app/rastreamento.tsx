@@ -14,24 +14,25 @@ import FeatureCard from "@/components/feature-card";
 const FEATURES = [
   {
     icon: InboxIcon,
-    title: "Validação de Documentos",
+    title: "Monitoramento em Tempo Real",
     description:
-      "Conferimos a autenticidade de CNH, CRLV e outros documentos essenciais para o cadastro do motorista.",
+      "Acompanhe a localização e o status de suas cargas em tempo real, garantindo maior controle e segurança.",
   },
   {
     icon: CheckBadgeIcon,
-    title: "Análise de Histórico",
+    title: "Análise de Riscos",
     description:
-      "Verificamos antecedentes, multas e histórico profissional para garantir segurança e confiabilidade.",
+      "Identifique áreas de risco e tome decisões proativas para evitar incidentes e minimizar perdas.",
   },
   {
-    icon: CheckBadgeIcon,
-    title: "Aprovação Ágil",
-    description: "Processo automatizado que agiliza a aprovação e reduz erros humanos.",
+    icon: AcademicCapIcon,
+    title: "Relatórios Inteligentes",
+    description:
+      "Obtenha insights detalhados sobre o desempenho da frota e otimize suas operações com base em dados.",
   },
 ];
 
-export function OnlineCourse() {
+export function Rastreamento() {
   return (
     <section className="py-28 px-8">
       <div className="container mx-auto grid grid-cols-1 place-items-center lg:grid-cols-3">
@@ -39,36 +40,36 @@ export function OnlineCourse() {
           <Image
             width={768}
             height={500}
-            src="/image/motorista1.png"
+            src="/image/callcenter.png"
             className="h-full max-h-[500px] w-full object-cover scale-110 rounded-2xl"
             alt="online course"
           />
         </div>
         <div className="col-span-2 lg:pl-24">
         <Typography variant="h5" color="gray" className="mb-4">
-            Cadastro de Motoristas
+            Rastreamento de Cargas
           </Typography>
           <Typography variant="h3" color="blue-gray" className="mb-4">
-            Identifique o motorista e veículo mais adequado para sua carga
+            Mais agilidade nas atuações de suspeita de roubo e acidentes
           </Typography>
             <Typography
             variant="lead"
             className="mb-5 max-w-lg px-4 text-left text-lg !text-gray-800 lg:px-0"
             >
-            Solução prática e confiável para verificar os dados de veículos e profissionais que farão o transporte de sua carga.
+            Tecnologia e inteligência para monitoramento e rastreamento de frotas.
             </Typography>
             <ul className="mb-5 max-w-lg px-4 text-left text-lg text-gray-700 list-none lg:px-0">
               <li className="flex items-start gap-2">
                 <span className="text-blue-600 font-bold">✔</span>
-                Avalie motoristas e veículos 92% mais rápido e com 95% de confiabilidade nas análises.
+                Score Risk: direcionamento das ocorrências de forma inteligente, considerando histórico de sinistralidade, tipo de produto, região de risco e outros.
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-600 font-bold">✔</span>
-                Realizamos verificações em 520 fontes de dados.
+                Inteligência artificial: sistema gamificado que orienta os procedimentos que devem ser executados para cada ocorrência, promovendo mais agilidade nas ações.
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-600 font-bold">✔</span>
-                Concluímos pesquisas em 20 minutos em média, agilizando as operações logísticas de Embarcadores, Transportadoras e Operadores Logísticos.
+                Workflow: sistema com procedimentos claros que padronizam e automatizam as ações.
               </li>
             </ul>
 
@@ -85,4 +86,4 @@ export function OnlineCourse() {
   );
 }
 
-export default OnlineCourse;
+export default Rastreamento;
