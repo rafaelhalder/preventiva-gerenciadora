@@ -46,13 +46,13 @@ export function Rastreamento() {
           />
         </div>
         <div className="col-span-2 lg:pl-24">
-        <Typography variant="h5" color="gray" className="mb-4">
+        <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     variant="h5" color="gray" className="mb-4">
             Rastreamento de Cargas
           </Typography>
-          <Typography variant="h3" color="blue-gray" className="mb-4">
+          <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     variant="h3" color="blue-gray" className="mb-4">
             Mais agilidade nas atuações de suspeita de roubo e acidentes
           </Typography>
-            <Typography
+            <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     
             variant="lead"
             className="mb-5 max-w-lg px-4 text-left text-lg !text-gray-800 lg:px-0"
             >
