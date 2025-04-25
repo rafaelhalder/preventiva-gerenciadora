@@ -54,7 +54,7 @@ export function CarouselFeatures() {
                   variant="lead"
                   color="white"
                   className="mb-5 text-xl font-normal "  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                >
-                  Investir e utilizar a nossa GR foi uma excelente decisão. A plataforma facilitou todo o processo e trouxe ótimos resultados para o meu negócio.
+                  Investir e utilizar o sistema da Preventiva foi uma excelente decisão. A plataforma facilitou todo o processo e trouxe ótimos resultados para o meu negócio.
                 </Typography>
                 <Typography
                   variant="small"
