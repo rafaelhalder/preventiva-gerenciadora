@@ -15,7 +15,7 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
+      <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    
         as="a"
         href={href || "#"}
         target={href ? "_blank" : "_self"}
@@ -56,7 +56,7 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar
+    <MTNavbar placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    
       fullWidth
       shadow={false}
       blurred={false}
@@ -64,7 +64,7 @@ export function Navbar() {
       className="fixed top-0 z-50 border-0"
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"}>
+        <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     variant="h6" color={isScrolling ? "blue-gray" : "white"}>
           Preventiva
         </Typography>
         <ul
@@ -80,21 +80,21 @@ export function Navbar() {
           </NavItem>
         </ul>
         <div className="hidden gap-2 lg:flex">
-          <IconButton
+          <IconButton placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
           >
             <i className="fa-brands fa-twitter text-base" />
           </IconButton>
-          <IconButton
+          <IconButton placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
           >
             <i className="fa-brands fa-facebook text-base" />
           </IconButton>
-          <IconButton
+          <IconButton placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
@@ -102,12 +102,12 @@ export function Navbar() {
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
           <a href="https://github.com/rafaelhalder" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
+            <Button placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     color={isScrolling ? "gray" : "white"} size="sm">
               Login
             </Button>
           </a>
         </div>
-        <IconButton
+        <IconButton placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    
           variant="text"
           color={isScrolling ? "gray" : "white"}
           onClick={handleOpen}
@@ -131,17 +131,17 @@ export function Navbar() {
             </NavItem>
           </ul>
           <div className="mt-4 flex gap-2">
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     variant="text" color="gray" size="sm">
               <i className="fa-brands fa-twitter text-base" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     variant="text" color="gray" size="sm">
               <i className="fa-brands fa-facebook text-base" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     variant="text" color="gray" size="sm">
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
             <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray" size="sm" className="ml-auto">
+              <Button placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     color="gray" size="sm" className="ml-auto">
                 Login
               </Button>
             </a>

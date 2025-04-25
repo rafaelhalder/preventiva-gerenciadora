@@ -17,6 +17,7 @@ function Hero() {
           variant="h2"
           color="white"
           className="mt-6 mb-4 w-full md:max-w-full lg:max-w-2xl font-bold"
+          placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}  
         >
           Eleve a gestão de riscos da sua empresa ao próximo nível!
         </Typography>
@@ -24,16 +25,16 @@ function Hero() {
           variant="lead"
           color="white"
           className="mb-8 w-full md:max-w-full lg:max-w-2xl"
+          placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}  
         >
           Descubra como otimizar a gestão de riscos da sua empresa com soluções inovadoras e eficientes. Garanta mais segurança, conformidade e tranquilidade para o seu negócio!
         </Typography>
         <div>
           <Button
-            variant="gradient"
-            color="green"
-            size="lg"
-            className="flex items-center gap-2"
-          >
+              variant="gradient"
+              color="green"
+              size="lg"
+              className="flex items-center gap-2" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={24}

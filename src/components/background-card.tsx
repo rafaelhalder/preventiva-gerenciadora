@@ -13,16 +13,16 @@ export function BackgroundCard({ title, children, image }: BackgroundCardProps &
     <div className="grid place-items-center h-full px-8 py-6 bg-gray-900 rounded-xl">
       <div className="flex flex-col items-center mb-16">
         <Image
-          src={image}
+          src={image || "/default-image.png"}
           alt={title}
           width={75}
           height={75}
           className="object-cover shadow-lg mb-4"
         />
-        <Typography variant="h2" className="text-center" color="white">
+        <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}     variant="h2" className="text-center" color="white">
           {title}
         </Typography>
-        <Typography
+        <Typography placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    
           color="white"
           className="my-2 text-base w-full text-center font-normal"
         >

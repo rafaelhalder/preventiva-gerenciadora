@@ -9,12 +9,15 @@ export function CarouselFeatures() {
   return (
     <section className="px-8 pt-40 pb-20">
       <div className="flex mb-16 flex-col items-center">
-        <Typography variant="h2" className="text-center mb-2" color="blue-gray">
+        <Typography variant="h2" className="text-center mb-2" color="blue-gray" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
           Oque nossos investidores falam?
         </Typography>
         <Typography
           variant="lead"
           className="mb-3 w-full text-center font-normal !text-gray-500 lg:w-10/12"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
         >
          Um pouco sobre o que nossos investidores falam sobre nós e como a nossa plataforma tem ajudado eles a crescerem e se desenvolverem.
         </Typography>
@@ -37,6 +40,9 @@ export function CarouselFeatures() {
               ))}
             </div>
           )}
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
         >
           {new Array(1).fill("").map((_, i) => (
             <div
@@ -47,14 +53,14 @@ export function CarouselFeatures() {
                 <Typography
                   variant="lead"
                   color="white"
-                  className="mb-5 text-xl font-normal "
-                >
+                  className="mb-5 text-xl font-normal "  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                >
                   Investir e utilizar a nossa GR foi uma excelente decisão. A plataforma facilitou todo o processo e trouxe ótimos resultados para o meu negócio.
                 </Typography>
                 <Typography
                   variant="small"
                   color="white"
                   className="font-medium uppercase"
+                  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}  
                 >
                   Fernando Corrales,{" "}
                   <span className="font-normal opacity-60">
