@@ -1,10 +1,11 @@
 {
-  "name": "nextjs-tailwind-course-details-page",
+  "name": "preventiva-gerenciadora",
+  "description": "Aplicação web para gerenciamento de ordens de serviço e controle de manutenção preventiva e corretiva de veículos pesados, como caminhões e ônibus.",
   "version": "1.0.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-course-details-page",
+  "author": "Rafa",
+  "license": "https://preventiva-gerenciadora.vercel.app/",
+  "homepage": "https://preventiva-gerenciadora.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
