@@ -1,14 +1,13 @@
-# [NextJS Tailwind Course Details Page](http://demos.creative-tim.com/nextjs-tailwind-course-details-page?ref=readme-ntpp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-course-details-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-course-details-page)
+# [Preventiva Gerenciadora de Risco](http://demos.creative-tim.com/nextjs-tailwind-course-details-page?ref=readme-ntpp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-course-details-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-course-details-page)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nextjs-tailwind-course-details-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-course-details-page/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nextjs-tailwind-course-details-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-course-details-page/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://s3.amazonaws.com/creativetim_bucket/products/745/original/material-tailwind-react-courses-details-template-thumbnail.jpg?1697636213)
 
-Introducing NextJS Tailwind Course Details Page, a comprehensive and user-friendly course details template designed using Tailwind CSS and Material Tailwind.
+Apresentando a Preventiva Gerenciadora de Risco, uma solução completa e amigável para gestão de riscos
+Se você busca uma plataforma profissional e altamente personalizável para detalhar informações sobre riscos, planos de ação e controles preventivos, a Preventiva é a escolha ideal. Projetada para atender empresas e gestores que precisam aprimorar a segurança e a tomada de decisão, nossa solução oferece recursos essenciais para o gerenciamento eficiente de riscos.
 
-Are you in need of a professionally designed and highly customizable course details page template, perfect for providing in-depth information about your client’s courses and enhancing the learning experience for their students? Look no further! We are excited to present to you our Free Course Details Page Template, thoughtfully crafted to cater to the needs of educators and online course providers.
-
-This template, built with Tailwind CSS and Material Tailwind, offers effortless customization to align perfectly with your course content and branding. The free course details page template includes essential features such as header, stats section, categories section, content section, and testimonial section.
+A Preventiva Gerenciadora de Risco permite fácil customização para se adequar ao seu processo, incluindo seções para identificação de riscos, análise, planos de mitigação, indicadores e relatórios.
 
 **Documentation built by Developers**
 
