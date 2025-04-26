@@ -68,7 +68,7 @@ export function CarouselFeatures() {
                   </span>
                 </Typography>
               </div>
-              <div className="col-span-2 flex w-full shrink-0 md:!justify-end">
+              <div className="col-span-2 flex w-full shrink-0 md:!justify-end place-items-center">
                 <Image
                   width={256}
                   height={256}
